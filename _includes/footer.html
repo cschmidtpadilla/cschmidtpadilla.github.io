@@ -1,24 +1,20 @@
 <footer>
+
    <div class="container">
     <div class="row">
 
       <div class="col-md-2"></div>
       <div class="col-md-8 text-center">
 
-        <h3>
-          <span class="fa fa-map-signs fa-lg main-list-item-icon"></span>
-          Contact Info
-        </h3>
-        
-        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6298.8969524020895!2d-122.26562261714074!3d37.87319333546818!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2c6d550fb27f83d6!2sEvans+Hall!5e0!3m2!1sen!2sus!4v1553453287242" width="600" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+        <h4><strong>Contact information</strong>
+        </h4>
 
-        <br>
-        <br>
-        <p><a id="icon" href="https://www.berkeley.edu/map?evans" target="_blank"><i class="fa fa-map-marker fa-fw fa-1x"></i></a>
+        <p>
           {% for address in site.address %}
           {{ address.line }}<br>
           {% endfor %}
         </p>
+
         <ul class="list-unstyled">
           <li><i class="fa fa-envelope-o fa-fw"></i> {{ site.email }}
           </li>
@@ -26,17 +22,17 @@
         <br>
         <ul class="list-inline">
           <li>
-            <a id="icon" href="GastonSanchez_resume.pdf" target="_blank"><i class="fa fa-id-badge fa-fw fa-2x"></i></a>
+            <a id="icon" href="/schmidtpadilla-carlos-cv.pdf" target="_blank"><i class="fa fa-user fa-fw fa-2x"></i></a>
           </li>
           <li>
             <a id="icon" href="https://github.com/{{ site.github_username }}" target="_blank"><i class="fa fa-github fa-fw fa-2x"></i></a>
           </li>
           <li>
-            <a id="icon" href="https://www.linkedin.com/in/{{ site.linkedin_username }}" target="_blank"><i class="fa fa-linkedin-square fa-fw fa-2x"></i></a>
+            <a id="icon" href="https://www.linkedin.com/in/{{ site.linkedin_username }}" target="_blank"><i class="fa fa-linkedin fa-fw fa-2x"></i></a>
           </li>
         </ul>
         <hr>
-        <p class="text-muted">Copyright &copy; {{ site.copyright }} 2010-20{{ site.time | date: '%y' }}.</p>
+        <p class="text-muted">Copyright &copy; {{ site.copyright }} 2017-20{{ site.time | date: '%y' }}<br>.</p>
 
       </div>
       <div class="col-md-2"></div>
