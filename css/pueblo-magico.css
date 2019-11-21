@@ -48,23 +48,23 @@ a:hover {
 a:visited, a:active, a:link {
     text-decoration: none;
 }
-  
-#books {
+
+#working {
     color: #FF5050;
 }
 
-a.books {
+a.working {
     /* #FFBC44 = rgba(255, 188, 68) */
     border-bottom: 2px solid rgba(255, 80, 80, 0.35);
 }
 
-a.books:hover {
+a.working:hover {
     color: #FF5050;
     text-decoration: none;
     border-bottom: 2px solid #FF5050;
 }
 
-a.books:visited, a.books:active, a.books:link {
+a.working:visited, a.working:active, a.working:link {
     text-decoration: none;
 }
 
@@ -247,14 +247,14 @@ hr.small {
 }
 
 /* Custom ul li separated */
-ul li.sep1 { 
+ul li.sep1 {
   /* line-height: 1.5em; */
   margin-top: 0.8em;
   margin-bottom: 0.8em;
 }
 
 /* Custom ul li separated */
-ul li.sep2 { 
+ul li.sep2 {
   /* line-height: 1.5em; */
   margin-top: 0.5em;
 }
