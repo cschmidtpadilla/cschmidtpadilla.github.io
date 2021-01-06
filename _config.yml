@@ -6,17 +6,18 @@ description: > # this means to ignore newlines until "baseurl:"
   
 # url of domain 
 url: https://cschmidtpadilla.github.io/
-baseurl:
+baseurl: https://cschmidtpadilla.github.io/
 
 # User setting
 owner: Carlos Schmidt-Padilla
 email: "cschmidtpadilla [at] gmail [dot] com"
+twitter_username: cschmidtpadilla
 github_username: cschmidtpadilla
 linkedin_username: carlos-schmidt-padilla-14308a44
 address:
   - line: Travers Department of Political Science
   - line: University of California at Berkeley
-  - line: 210 Barrows Hall
+  - line: 210 Social Sciences Building
   - line: Berkeley, California 94720-1950 
 copyright: "Carlos Schmidt-Padilla"
 
